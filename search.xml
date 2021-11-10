@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>hexo的使用</title>
+    <url>/2020/10/31/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">无法加载文件 C:\Users\Administrator\AppData\Roaming\npm\tsc.ps1,因为在此系统上禁止运行脚本</span><br><span class="line"></span><br><span class="line">以管理员身份运行powerShell</span><br><span class="line"></span><br><span class="line">$ <span class="built_in">set</span>-ExecutionPolicy RemoteSigned</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>首页</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>golang入门介绍</title>
+    <url>/2021/09/03/golang/intro/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Golang的安装"><a href="#Golang的安装" class="headerlink" title="Golang的安装"></a>Golang的安装</h2><h3 id="1-1-Go下载地址"><a href="#1-1-Go下载地址" class="headerlink" title="1.1 Go下载地址"></a>1.1 Go下载地址</h3><pre><code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Go官网下载地址：https:&#x2F;&#x2F;golang.org&#x2F;dl&#x2F; (打开有点慢)</span><br></pre></td></tr></table></figure></code></pre><h3 id="1-2-windows-环境安装"><a href="#1-2-windows-环境安装" class="headerlink" title="1.2 windows 环境安装"></a>1.2 windows 环境安装</h3><pre><code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">安装: 点击安装包---&gt;傻瓜式安装(下一步下一步)</span><br></pre></td></tr></table></figure></code></pre><h3 id="1-3-Linux-环境安装"><a href="#1-3-Linux-环境安装" class="headerlink" title="1.3 Linux 环境安装"></a>1.3 Linux 环境安装</h3><pre><code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1.SSH远程登录你的linux服务器</span><br><span class="line"></span><br><span class="line">2.安装 mercurial包</span><br><span class="line"></span><br><span class="line">[root@localhost ~]# yum install mercurial</span><br><span class="line"></span><br><span class="line">3.安装git包</span><br><span class="line"></span><br><span class="line">[root@localhost ~]# yum install git</span><br><span class="line"></span><br><span class="line">4.安装gcc</span><br><span class="line"></span><br><span class="line">[root@localhost ~]# yum install gcc</span><br><span class="line"></span><br><span class="line">5.下载Go的压缩包:(可选择最新的Go版本)</span><br></pre></td></tr></table></figure></code></pre>]]></content>
+      <categories>
+        <category>golang</category>
+      </categories>
+      <tags>
+        <tag>golang</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>node初步认识</title>
+    <url>/2020/10/31/node/knowNode/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="创建node-应用"><a href="#创建node-应用" class="headerlink" title="创建node.应用"></a>创建node.应用</h3><h4 id="步骤一、引入-required-模块"><a href="#步骤一、引入-required-模块" class="headerlink" title="步骤一、引入 required 模块"></a>步骤一、引入 required 模块</h4><pre><code>我们使用 require 指令来载入 http 模块，并将实例化的 HTTP 赋值给变量 http，实例如下:</code></pre> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var http &#x3D; require(&quot;http&quot;);</span><br></pre></td></tr></table></figure>
+<h4 id="步骤二、创建服务器"><a href="#步骤二、创建服务器" class="headerlink" title="步骤二、创建服务器"></a>步骤二、创建服务器</h4><p>使用http.createServer()方法创建服务器并使用listen方法绑定端口号。函数通过request与response参数来接收和响应数据。例如：<br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">var http &#x3D; require(&quot;http&quot;);</span><br><span class="line">http.createSrever(function(request,response)&#123;</span><br><span class="line">    &#x2F;&#x2F; 发送 HTTP 头部 </span><br><span class="line">    &#x2F;&#x2F; HTTP 状态值: 200 : OK</span><br><span class="line">    &#x2F;&#x2F; 内容类型: text&#x2F;plain</span><br><span class="line">    response.writeHead(200, &#123;&#39;Content-Type&#39;: &#39;text&#x2F;plain&#39;&#125;);</span><br><span class="line">    &#x2F;&#x2F; 发送响应数据 &quot;Hello World&quot;</span><br><span class="line">    response.end(&#39;Hello World\n&#39;);</span><br><span class="line">&#125;).listen(8000);</span><br><span class="line">&#x2F;&#x2F; 终端打印如下信息</span><br><span class="line">console.log(&#39;Server running at http:&#x2F;&#x2F;127.0.0.1:8888&#x2F;&#39;);</span><br></pre></td></tr></table></figure><br>使用 node 命令执行以上的代码：<br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node 文件名称(如：server.js)</span><br></pre></td></tr></table></figure></p>
+<h4 id="分析Node-js-的-HTTP-服务器："><a href="#分析Node-js-的-HTTP-服务器：" class="headerlink" title="分析Node.js 的 HTTP 服务器："></a>分析Node.js 的 HTTP 服务器：</h4><ol>
+<li>第一行请求（require）Node.js 自带的 http 模块，并且把它赋值给 http 变量。</li>
+<li>接下来我们调用 http 模块提供的函数： createServer 。这个函数会返回 一个对象，这个对象有一个叫做 listen 的方法，这个方法有一个数值参数， 指定这个 HTTP 服务器监听的端口号。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>node</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>字符串</title>
+    <url>/2020/10/31/python/char/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在最新的Python 3版本中，字符串是以Unicode编码的，也就是说，Python的字符串支持多语言，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&#39;包含中文的str&#39;)</span><br><span class="line">包含中文的str</span><br></pre></td></tr></table></figure>
+<h2 id="ord-获取字符的整数表示"><a href="#ord-获取字符的整数表示" class="headerlink" title="ord() 获取字符的整数表示"></a>ord() 获取字符的整数表示</h2> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> ord(&#39;A&#39;)</span><br><span class="line"> 65</span><br><span class="line"></span><br><span class="line">ord(&#39;中&#39;)</span><br><span class="line">20013</span><br></pre></td></tr></table></figure>
+
+<h2 id="chr-把编码转换为对应的字符"><a href="#chr-把编码转换为对应的字符" class="headerlink" title="chr() 把编码转换为对应的字符"></a>chr() 把编码转换为对应的字符</h2> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chr(66)</span><br><span class="line">&#39;B&#39;</span><br><span class="line"></span><br><span class="line">chr(25991)</span><br><span class="line">&#39;文&#39;</span><br></pre></td></tr></table></figure>
+<p> 如果知道字符的整数编码，还可以用十六进制这么写str：</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#39;\u4e2d\u6587&#39;</span><br><span class="line">&#39;中文&#39;</span><br></pre></td></tr></table></figure>
+
+<p>纯英文的str可以用ASCII编码为bytes，内容是一样的，含有中文的str可以用UTF-8编码为bytes。含有中文的str无法用ASCII编码，因为中文编码的范围超过了ASCII编码的范围，Python会报错。</p>
+<p>由于Python的字符串类型是str，在内存中以Unicode表示，一个字符对应若干个字节。如果要在网络上传输，或者保存到磁盘上，就需要把str变为以字节为单位的bytes。</p>
+<p>Python对bytes类型的数据用带b前缀的单引号或双引号表示：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x &#x3D; b&#39;ABC&#39;</span><br></pre></td></tr></table></figure>
+
+<p>要把bytes变为str，就需要用decode()方法：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> b&#39;ABC&#39;.decode(&#39;ascii&#39;)</span><br><span class="line">&#39;ABC&#39;</span><br><span class="line">b&#39;\xe4\xb8\xad\xe6\x96\x87&#39;.decode(&#39;utf-8&#39;)</span><br><span class="line">&#39;中文&#39;</span><br></pre></td></tr></table></figure>
+
+<h2 id="len-计算str包含多少个字符："><a href="#len-计算str包含多少个字符：" class="headerlink" title="len() 计算str包含多少个字符："></a>len() 计算str包含多少个字符：</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">len(&#39;ABC&#39;)</span><br><span class="line">3</span><br><span class="line"></span><br><span class="line">len(&#39;中文&#39;)</span><br><span class="line">2</span><br></pre></td></tr></table></figure>
+
+<p>len()函数计算的是str的字符数，如果换成bytes，len()函数就计算字节数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">len(b&#39;ABC&#39;)</span><br><span class="line">3</span><br><span class="line">len(b&#39;\xe4\xb8\xad\xe6\x96\x87&#39;)</span><br><span class="line">6</span><br><span class="line">len(&#39;中文&#39;.encode(&#39;utf-8&#39;))</span><br><span class="line">6</span><br></pre></td></tr></table></figure>
+
+
+<p>由于Python源代码也是一个文本文件，所以，当你的源代码中包含中文的时候，在保存源代码时，就需要务必指定保存为UTF-8编码。当Python解释器读取源代码时，为了让它按UTF-8编码读取，我们通常在文件开头写上这两行：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#!&#x2F;usr&#x2F;bin&#x2F;env python3</span><br><span class="line"># -*- coding: utf-8 -*-</span><br></pre></td></tr></table></figure>
+
+<p>%运算符就是用来格式化字符串的。在字符串内部，%s表示用字符串替换，%d表示用整数替换，有几个%?占位符，后面就跟几个变量或者值，顺序要对应好。如果只有一个%?，括号可以省略</p>
+<p>常见的占位符有：</p>
+<p>占位符    替换内容<br>%d    整数<br>%f    浮点数<br>%s    字符串<br>%x    十六进制整数</p>
+<p>其中，格式化整数和浮点数还可以指定是否补0和整数与小数的位数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&#39;%2d-%02d&#39; % (3, 1))</span><br><span class="line">print(&#39;%.2f&#39; % 3.1415926)</span><br><span class="line"></span><br><span class="line"> 3-01 </span><br><span class="line">3.14</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python中的输入与输出</title>
+    <url>/2020/10/31/python/inputAndoutInput/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="输出print-函数"><a href="#输出print-函数" class="headerlink" title="输出print()函数"></a>输出print()函数</h2><h3 id="print-函数可以输出字符串、变量、以及简单的数学运算"><a href="#print-函数可以输出字符串、变量、以及简单的数学运算" class="headerlink" title="print()函数可以输出字符串、变量、以及简单的数学运算"></a>print()函数可以输出字符串、变量、以及简单的数学运算</h3><ul>
+<li><p>输出字符串</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&#39;你好&#39;)</span><br></pre></td></tr></table></figure></li>
+<li><p>输出变量</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">name &#x3D; input()</span><br><span class="line"></span><br><span class="line">&lt;!-- 回车后输入 123456789 --&gt;</span><br><span class="line">&lt;!-- 回车后在输入 name 在回车 --&gt;</span><br><span class="line">name</span><br><span class="line"></span><br><span class="line">输出结果 123456789</span><br></pre></td></tr></table></figure>
+<p>其中 name 为变量 ，可以将输入的内容保存到变量中在输出</p>
+</li>
+<li><p>数学运算</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(1+1)</span><br><span class="line"></span><br><span class="line">结果 2</span><br><span class="line"></span><br><span class="line">print(2*2)</span><br><span class="line"></span><br><span class="line">结果 4</span><br><span class="line"></span><br><span class="line">print(8&#x2F;2)</span><br><span class="line"></span><br><span class="line">结果 4</span><br></pre></td></tr></table></figure>
+<h2 id="输入-input-函数"><a href="#输入-input-函数" class="headerlink" title="输入 input()函数"></a>输入 input()函数</h2><ul>
+<li>输入函数是可以让用户去手动输入的函数</li>
+<li>如上面输出函数中输出变量一样，先输入后再将值保存到变量中</li>
+</ul>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python开发工具  pycharm 的安装</title>
+    <url>/2020/10/31/python/pycharm/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="官网下载"><a href="#官网下载" class="headerlink" title="官网下载"></a>官网下载</h2><h3 id="官网地址"><a href="#官网地址" class="headerlink" title="官网地址"></a>官网地址</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://www.jetbrains.com/pycharm/download</span><br></pre></td></tr></table></figure>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">next 傻瓜式安装，安装时勾选 .py</span><br><span class="line">根据自己的系统选择对应的安装包</span><br></pre></td></tr></table></figure>
+<h3 id="添加环境变量"><a href="#添加环境变量" class="headerlink" title="添加环境变量"></a>添加环境变量</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">电脑桌面右键此电脑</span><br><span class="line">系统高级设置</span><br><span class="line">高级</span><br><span class="line">环境变量</span><br><span class="line">path中在最后面添加分号后在将安装的编辑器的位置路劲追加在最后</span><br><span class="line">点击确定</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据类型与变量</title>
+    <url>/2020/10/31/python/dataTypeAndVariable/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><h3 id="整数类型"><a href="#整数类型" class="headerlink" title="整数类型"></a>整数类型</h3><p>Python可以处理任意大小的整数，当然包括负整数，在程序中的表示方法和数学上的写法一模一样，例如：1，100，-8080，0，等等。<br>计算机由于使用二进制，所以，有时候用十六进制表示整数比较方便，十六进制用0x前缀和0-9，a-f表示，例如：0xff00，0xa5b4c3d2，等等。<br>对于很大的数，例如10000000000，很难数清楚0的个数。Python允许在数字中间以_分隔，因此，写成10_000_000_000和10000000000是完全一样的。十六进制数也可以写成0xa1b2_c3d4。</p>
+<h3 id="浮点型"><a href="#浮点型" class="headerlink" title="浮点型"></a>浮点型</h3><p>浮点数也就是小数，之所以称为浮点数，是因为按照科学记数法表示时，一个浮点数的小数点位置是可变的，比如，1.23x109和12.3x108是完全相等的。浮点数可以用数学写法，如1.23，3.14，-9.01，等等。但是对于很大或很小的浮点数，就必须用科学计数法表示，把10用e替代，1.23x109就是1.23e9，或者12.3e8，0.000012可以写成1.2e-5，等等。</p>
+<h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3><p>字符串是以单引号’或双引号”括起来的任意文本，比如’abc’，”xyz”等等。请注意，’’或””本身只是一种表示方式，不是字符串的一部分，因此，字符串’abc’只有a，b，c这3个字符。如果’本身也是一个字符，那就可以用””括起来，比如”I’m OK”包含的字符是I，’，m，空格，O，K这6个字符。</p>
+<p>果字符串内部既包含’又包含”怎么办？可以用转义字符\来标识，比如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#39;I\&#39;m \&quot;OK\&quot;!&#39;</span><br></pre></td></tr></table></figure>
+<p>表示的字符串内容是</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I&#39;m &quot;OK&quot;!</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&quot;i\&#39;m ok&quot;)</span><br><span class="line"></span><br><span class="line">输出结果 i&#39;m ok</span><br></pre></td></tr></table></figure>
+
+<p>转义字符\可以转义很多字符，比如\n表示换行，\t表示制表符，字符\本身也要转义，所以\表示的字符就是\</p>
+<p>\t 表示四个空格 相当于一个tab键</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&#39;你\t好&#39;)</span><br><span class="line"></span><br><span class="line">输出结果 你 	 好</span><br></pre></td></tr></table></figure>
+
+<p>\n 表示换行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&#39;你\n好&#39;)</span><br><span class="line"></span><br><span class="line">输出结果  </span><br><span class="line"></span><br><span class="line">你</span><br><span class="line">好</span><br></pre></td></tr></table></figure>
+
+<p>\ 如果想输出  \ 就需要使用 \ ，因为\本身要转义，所以 \表示 \</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&#39;3\\2&#39;)</span><br><span class="line"></span><br><span class="line">输出结果 3\2</span><br></pre></td></tr></table></figure>
+
+<p>如果字符串里面有很多字符都需要转义，就需要加很多\，为了简化，Python还允许用r’’表示’’内部的字符串默认不转义</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&#39;\\\t\\&#39;)</span><br><span class="line"></span><br><span class="line">输出结果 \	\</span><br><span class="line"></span><br><span class="line">print(r&#39;\\\t\\&#39;)</span><br><span class="line"></span><br><span class="line">输出结果 \\\t\\</span><br></pre></td></tr></table></figure>
+
+<p>如果字符串内部有很多换行，用\n写在一行里不好阅读，为了简化，Python允许用’’’…’’’的格式表示多行内容</p>
+<h3 id="布尔值"><a href="#布尔值" class="headerlink" title="布尔值"></a>布尔值</h3><p>布尔值和布尔代数的表示完全一致，一个布尔值只有True、False两种值，要么是True，要么是False，在Python中，可以直接用True、False表示布尔值（请注意大小写），也可以通过布尔运算计算出来：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; True</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; False</span><br><span class="line">False</span><br><span class="line">&gt;&gt;&gt; 3 &gt; 2</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; 3 &gt; 5</span><br><span class="line">False</span><br></pre></td></tr></table></figure>
+
+<p>布尔值可以用and、or和not运算</p>
+<p>and运算是与运算，只有所有都为True，and运算结果才是True：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; True and True</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; True and False</span><br><span class="line">False</span><br><span class="line">&gt;&gt;&gt; False and False</span><br><span class="line">False</span><br><span class="line">&gt;&gt;&gt; 5 &gt; 3 and 3 &gt; 1</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+
+<p>or运算是或运算，只要其中有一个为True，or运算结果就是True：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; True or True</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; True or False</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; False or False</span><br><span class="line">False</span><br><span class="line">&gt;&gt;&gt; 5 &gt; 3 or 1 &gt; 3</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+
+<p>not运算是非运算，它是一个单目运算符，把True变成False，False变成True：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; not True</span><br><span class="line">False</span><br><span class="line">&gt;&gt;&gt; not False</span><br><span class="line">True</span><br><span class="line">&gt;&gt;&gt; not 1 &gt; 2</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+
+<p>布尔值经常用在条件判断中，比如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">age &#x3D; 20</span><br><span class="line">if age &gt;&#x3D; 18:</span><br><span class="line">    print(&#39;adult&#39;)</span><br><span class="line">else:</span><br><span class="line">    print(&#39;teenager&#39;)</span><br><span class="line"></span><br><span class="line">输出结果 adult</span><br></pre></td></tr></table></figure>
+
+<h3 id="空值"><a href="#空值" class="headerlink" title="空值"></a>空值</h3><p>空值是Python里一个特殊的值，用None表示。None不能理解为0，因为0是有意义的，而None是一个特殊的空值。</p>
+<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>变量的概念基本上和初中代数的方程变量是一致的，只是在计算机程序中，变量不仅可以是数字，还可以是任意数据类型。</p>
+<p>变量在程序中就是用一个变量名表示了，变量名必须是大小写英文、数字和_的组合，且不能用数字开头，比如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a &#x3D; 1</span><br><span class="line"></span><br><span class="line">a为一个整数</span><br><span class="line"></span><br><span class="line">a &#x3D; &#39;hello&#39;</span><br><span class="line"></span><br><span class="line">a为一个字符串</span><br><span class="line"></span><br><span class="line">a &#x3D; Ture</span><br><span class="line"></span><br><span class="line">a为一个布尔值</span><br></pre></td></tr></table></figure>
+
+
+<p>变量的命名方式有俩种</p>
+<p>第一种 不固定类型 （动态语言）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a &#x3D; 10</span><br></pre></td></tr></table></figure>
+
+<p>第二种 固定类型 （静态语言）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">int a &#x3D; 10</span><br></pre></td></tr></table></figure>
+
+<p>注： 动态语言在变量赋值时不限定值的类型，可以随意赋值，在静态语言中，声明变量类型后就不可更改变量类型，赋值时也只能赋值相同类型的值，否则会报错。</p>
+<h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>所谓常量就是不能变的变量，比如常用的数学常数π就是一个常量。在Python中，通常用全部大写的变量名表示常量：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">PI &#x3D; 3.14159265359</span><br></pre></td></tr></table></figure>
+
+<p>但事实上PI仍然是一个变量，Python根本没有任何机制保证PI不会被改变，所以，用全部大写的变量名表示常量只是一个习惯上的用法，如果你一定要改变变量PI的值，也是可以的</p>
+<p>在Python中，有两种除法，一种除法是/</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">10 &#x2F; 3</span><br><span class="line"></span><br><span class="line">3.3333333333333335</span><br></pre></td></tr></table></figure>
+
+<p>/除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">9 &#x2F; 3</span><br><span class="line">3.0</span><br></pre></td></tr></table></figure>
+
+<p>还有一种除法是//，称为地板除，两个整数的除法仍然是整数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> 10 &#x2F;&#x2F; 3</span><br><span class="line">3</span><br></pre></td></tr></table></figure>
+
+<p>整数的地板除//永远是整数，即使除不尽。要做精确的除法，使用/就可以。</p>
+<p>因为//除法只取结果的整数部分，所以Python还提供一个余数运算，可以得到两个整数相除的余数：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">10 % 3</span><br><span class="line">1</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python 的下载与安装 （python 3x）</title>
+    <url>/2020/10/31/python/installPython/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="官网下载"><a href="#官网下载" class="headerlink" title="官网下载"></a>官网下载</h2><h3 id="官网地址"><a href="#官网地址" class="headerlink" title="官网地址"></a>官网地址</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.python.org&#x2F;downloads&#x2F;</span><br></pre></td></tr></table></figure>
+
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><ul>
+<li>选择与自己电脑系统相匹配的包安装</li>
+<li>勾选 add to path (添加到系统变量)</li>
+<li>傻瓜式安装</li>
+</ul>
+<h2 id="检查是否安装成功"><a href="#检查是否安装成功" class="headerlink" title="检查是否安装成功"></a>检查是否安装成功</h2><ul>
+<li>命令行 cmd</li>
+<li>输入 python</li>
+<li>控制台出现该信息说明安装成功 —-&gt;  Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32<br>Type “help”, “copyright”, “credits” or “license” for more information.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python文件的运行方式以及第一个python程序</title>
+    <url>/2020/10/31/python/runPythonfile/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="什么是命令行模式和Python交互模式"><a href="#什么是命令行模式和Python交互模式" class="headerlink" title="什么是命令行模式和Python交互模式"></a>什么是命令行模式和Python交互模式</h2><h3 id="命令行模式"><a href="#命令行模式" class="headerlink" title="命令行模式"></a>命令行模式</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">在Windows开始菜单选择“命令提示符”，就进入到命令行模式，它的提示符类似C:\&gt;：</span><br></pre></td></tr></table></figure>
+
+<h3 id="Python交互模式"><a href="#Python交互模式" class="headerlink" title="Python交互模式"></a>Python交互模式</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">在命令行模式下敲命令python，就看到类似如下的一堆文本输出，然后就进入到Python交互模式，它的提示符是&gt;&gt;&gt;。</span><br></pre></td></tr></table></figure>
+<ol>
+<li>在Python交互模式下输入exit()并回车，就退出了Python交互模式，并回到命令行模式：</li>
+<li>也可以直接通过开始菜单选择Python (command line)菜单项，直接进入Python交互模式，但是输入exit()后窗口会直接关闭，不会回到命令行模式。了解了如何启动和退出Python的交互模式，我们就可以正式开始编Python代码了。</li>
+<li>在交互模式的提示符&gt;&gt;&gt;下，直接输入代码，按回车，就可以立刻得到代码执行结果。现在，试试输入100+200，看看计算结果是不是300：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; 100+200</span><br><span class="line">300</span><br></pre></td></tr></table></figure></li>
+<li>如果要让Python打印出指定的文字，可以用print()函数，然后把希望打印的文字用单引号或者双引号括起来，但不能混用单引号和双引号：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; print(&#39;hello, world&#39;)</span><br><span class="line">hello, world</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h3 id="命令行模式和Python交互模式"><a href="#命令行模式和Python交互模式" class="headerlink" title="命令行模式和Python交互模式"></a>命令行模式和Python交互模式</h3><p>在命令行模式下，可以执行python进入Python交互式环境，也可以执行python hello.py运行一个.py文件。</p>
+<p>执行一个.py文件只能在命令行模式执行。如果敲一个命令python hello.py，看到如下错误：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Microsoft Windows [Version 10.0.0]                      </span><br><span class="line">(c) 2015 Microsoft Corporation. All rights reserved.    </span><br><span class="line">                                                        </span><br><span class="line">C:\&gt; python hello.py                                    </span><br><span class="line">python: can&#39;t open file &#39;hello.py&#39;: [Errno 2] No such   </span><br><span class="line">file or directory</span><br></pre></td></tr></table></figure>
+<p>错误提示No such file or directory说明这个hello.py在当前目录找不到，必须先把当前目录切换到hello.py所在的目录下，才能正常执行：</p>
+<h2 id="第一个python-程序代码"><a href="#第一个python-程序代码" class="headerlink" title="第一个python 程序代码"></a>第一个python 程序代码</h2><h3 id="输出函数-print"><a href="#输出函数-print" class="headerlink" title="输出函数 print()"></a>输出函数 print()</h3><ul>
+<li>在pyCharm中新建python文件</li>
+<li>在编辑区域输入print(“hello, world”)以下代码 </li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(&quot;hello, world&quot;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>鼠标右击运行文件名称 控制台会打印以下内容<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">F:\python\venv\Scripts\python.exe F:&#x2F;python&#x2F;test1.py</span><br><span class="line">hello, world    </span><br><span class="line"></span><br><span class="line">Process finished with exit code 0</span><br></pre></td></tr></table></figure></li>
+<li>输出 hello, world  说明程序执行成功</li>
+<li>在print函数中还可以进行简单的数学运算，如 + - * /<br>列如：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">print(2+2)</span><br><span class="line"></span><br><span class="line">输出结果  4</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据库原理入门</title>
+    <url>/2021/09/03/adultExam/dataBase/introduction/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      <categories>
+        <category>数据库原理</category>
+      </categories>
+      <tags>
+        <tag>数据库原理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构</title>
+    <url>/2021/09/03/adultExam/dataStructure/introduction/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语</title>
+    <url>/2021/09/03/adultExam/english/introduction/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>马克思主义是工人阶级和人类解放的科学</title>
+    <url>/2021/09/03/adultExam/marxism/introduction/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="马克思主义的产生与发展"><a href="#马克思主义的产生与发展" class="headerlink" title="马克思主义的产生与发展"></a>马克思主义的产生与发展</h2><h3 id="为什么会产生？"><a href="#为什么会产生？" class="headerlink" title="为什么会产生？"></a>为什么会产生？</h3><h4 id="1-背景"><a href="#1-背景" class="headerlink" title="1.背景"></a>1.背景</h4><ul>
+<li>资本主义的发展</li>
+<li>工人阶级 （工人运动没有科学的理论指导导致失败）<h4 id="2-产生的时间"><a href="#2-产生的时间" class="headerlink" title="2.产生的时间"></a>2.产生的时间</h4></li>
+<li>19世纪40年代（马克思主义是时代的产物）<h4 id="马克思主义的三大组成部分"><a href="#马克思主义的三大组成部分" class="headerlink" title="马克思主义的三大组成部分"></a>马克思主义的三大组成部分</h4></li>
+<li>马克思主义哲学</li>
+<li>马克思主义政治经济学</li>
+<li>科学社会主义</li>
+</ul>
+<blockquote>
+<p>直接理论来源</p>
+<blockquote>
+<p>马克思主义哲学 —–&gt; 《德国古典哲学》 代表人物： 黑格尔的辩证法，费尔巴哈的唯物主义</p>
+<blockquote>
+<p>是科学的世界观和方法论（指导）<br>马克思主义政治经济学 —–&gt; 《英国古典政治经济学》 代表人物： 杨党.斯密，大卫李嘉图<br>揭示了资本主义的发展规律 （实践）<br>科学社会主义 ——&gt; 《英法空想社会主义》 代表人物： 圣西门，傅立叶，欧文<br>理论处于核心地位（方向和道路）</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>间接理论来源</p>
+<blockquote>
+<p>自然科学 ①细胞学说 ②生物进化论 ③能量守恒与转化定律</p>
+</blockquote>
+</blockquote>
+<h3 id="马克思主义产生的标志"><a href="#马克思主义产生的标志" class="headerlink" title="马克思主义产生的标志"></a>马克思主义产生的标志</h3><blockquote>
+<p>《哲学的贫困》<br>《共产党宣言》</p>
+</blockquote>
+<h3 id="马克思主义的发展"><a href="#马克思主义的发展" class="headerlink" title="马克思主义的发展"></a>马克思主义的发展</h3><ol>
+<li>列宁 （十月革命） 创建了第一个社会主义国家（苏维埃俄国）</li>
+<li>马克思主义中国化<blockquote>
+<p>毛泽东思想<br>邓小平理论<br>三个代表重要思想<br>科学发展观<br>新时代的中国特色社会主义思想</p>
+</blockquote>
+</li>
+</ol>
+<ul>
+<li>中国特色社会主义理论体系不包括 毛泽东思想</li>
+</ul>
+<h2 id="科学性和革命性的同一"><a href="#科学性和革命性的同一" class="headerlink" title="科学性和革命性的同一"></a>科学性和革命性的同一</h2><h4 id="马克思主义的科学内涵"><a href="#马克思主义的科学内涵" class="headerlink" title="马克思主义的科学内涵"></a>马克思主义的科学内涵</h4><ol>
+<li>马克思主义是由马克思和恩格斯创立的，为他们的后继者所发展的（马恩创立）</li>
+<li>以反对资本主义、建设社会主义和共产主义为目标的科学的理论体系 （反资建社共产）</li>
+<li>它是关于工人阶级和人类解放的科学</li>
+</ol>
+<h4 id="马克思主义的理论特征"><a href="#马克思主义的理论特征" class="headerlink" title="马克思主义的理论特征"></a>马克思主义的理论特征</h4><blockquote>
+<p>理论特征：以实践为基础的科学性和革命性的同一</p>
+</blockquote>
+<ol>
+<li>科学性：<br>1). 揭示了自然界和人类社会的客观发展规律<br>2). 不但揭示了规律，而且还接受了实践的检验，随着实践不断发展</li>
+<li>革命性：<br>1). 彻底的批判精神 (反对资本主义)<br>2). 鲜明的政治立场 (工人阶级的立场)</li>
+</ol>
+<blockquote>
+<p>马克思的理论品质 : 与时俱进<br>马克思主义的根本理论特征是 ： 科学性和革命性的统一<br>马克思主义的科学性和革命性统一与它的 ： 实践性<br>最高理想是 ： 共产主义 （必经阶段）<br>共同理想 ： 社会主义 （根本方向）</p>
+</blockquote>
+<h2 id="学习、运用和发展马克思主义"><a href="#学习、运用和发展马克思主义" class="headerlink" title="学习、运用和发展马克思主义"></a>学习、运用和发展马克思主义</h2><blockquote>
+<p>根本方法 ：理论联系实践</p>
+<blockquote>
+<p>理论联系实际就是把马克思主义的基本原理作为指导，去观察和分析社会实际、工作实际和思想实际<br>错误倾向：<br>教条主义 ， 经验主义</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>马克思主义基本原理概论</category>
+      </categories>
+      <tags>
+        <tag>马克思主义基本原理概论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学</title>
+    <url>/2021/09/03/adultExam/math/introduction/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物质世界及其规律</title>
+    <url>/2021/09/03/adultExam/marxism/chapter1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="世界是物质的"><a href="#世界是物质的" class="headerlink" title="世界是物质的"></a>世界是物质的</h2><h4 id="世界的本源-（物质和意识谁是第一性）"><a href="#世界的本源-（物质和意识谁是第一性）" class="headerlink" title="世界的本源 （物质和意识谁是第一性）"></a>世界的本源 （物质和意识谁是第一性）</h4><ol>
+<li>唯心主义 （意识第一性）</li>
+<li>唯物主义 （物质第一性）</li>
+</ol>
+<blockquote>
+<ol>
+<li>古代朴素唯物主义<br>古代中国“金木水火土”等“五行”是世界的本源<br>泰勒斯 “水是世界的本源”<br>王夫之元气说<br>赫拉克利特 “火是世界的本源”</li>
+<li>近代形而上学唯物主义<br>原子是世界的本源</li>
+<li>辩证唯物主义和历史唯物主义<br>马克思-&gt;世界的本源（本质）是物质的</li>
+</ol>
+</blockquote>
+<h4 id="主观唯心主义-和客观唯心主义"><a href="#主观唯心主义-和客观唯心主义" class="headerlink" title="主观唯心主义 和客观唯心主义"></a>主观唯心主义 和客观唯心主义</h4><ol>
+<li>主观唯心主义：世界是主观精神（感觉、思想）的产物（个人）</li>
+<li>客观唯心主义：世界是客观精神（天理、上帝等）的产物（外力）</li>
+</ol>
+<h4 id="一元论-和-二元论"><a href="#一元论-和-二元论" class="headerlink" title="一元论 和 二元论"></a>一元论 和 二元论</h4><ol>
+<li>一元论   世界的本源只有一个（统一）</li>
+<li>二元论   世界的本源有多个  （不统一）</li>
+</ol>
+<h4 id="物质"><a href="#物质" class="headerlink" title="物质"></a>物质</h4><blockquote>
+<p>特点：</p>
+</blockquote>
+<ol>
+<li>不依赖于感觉存在</li>
+<li>通过感觉、感知 摄影和反映</li>
+</ol>
+<blockquote>
+<p>物质的唯一特性：客观实在性<br>客观实在性是一切物质的共性</p>
+</blockquote>
+<h4 id="物质（存在）和意识（思维）有同一性吗？（我们能认识这个世界吗？"><a href="#物质（存在）和意识（思维）有同一性吗？（我们能认识这个世界吗？" class="headerlink" title="物质（存在）和意识（思维）有同一性吗？（我们能认识这个世界吗？)"></a>物质（存在）和意识（思维）有同一性吗？（我们能认识这个世界吗？)</h4><h6 id="可知论：能认识，有同一性-（√）"><a href="#可知论：能认识，有同一性-（√）" class="headerlink" title="可知论：能认识，有同一性 （√）"></a>可知论：能认识，有同一性 （√）</h6><h5 id="不可知论：不能认识，没有同一性"><a href="#不可知论：不能认识，没有同一性" class="headerlink" title="不可知论：不能认识，没有同一性"></a>不可知论：不能认识，没有同一性</h5><h4 id="世界是如何存在的"><a href="#世界是如何存在的" class="headerlink" title="世界是如何存在的"></a>世界是如何存在的</h4><blockquote>
+<p>物质的根本属性和存在方式是运动</p>
+</blockquote>
+<pre><code>否认物质是运动的主体  ------&gt; 犯了唯心错误 （思想）
+主张没有运动的物质    ------&gt; 犯了形而上学的错误（物质静止）</code></pre><blockquote>
+<p>物质是绝对运动和相对静止的统一</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">联系</th>
+<th align="center">错误倾向</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">运动</td>
+<td align="center">动中有静，静中有动</td>
+<td align="center">只承认运动，否认相对静止（相对主义诡辩论）</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">静止</td>
+<td align="center">动中有静，静中有动</td>
+<td align="center">把静止绝对化，否认运动 （形而上学）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>绝对运动中包含着相对静止，相对静止中包含着绝对运动 （是马克思主义的威武辩证法的观点）</p>
+</blockquote>
+<blockquote>
+<p>世界是如何存在的？（存在状态）</p>
+</blockquote>
+<ol>
+<li>运动、联系、矛盾 ——–&gt; 辩证法 （√）</li>
+<li>静止、孤立、否认矛盾 —-&gt; 形而上学</li>
+</ol>
+<h4 id="时间可空间是物质运动的存在方式"><a href="#时间可空间是物质运动的存在方式" class="headerlink" title="时间可空间是物质运动的存在方式"></a>时间可空间是物质运动的存在方式</h4><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">含义</th>
+<th align="center">特点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">时间</td>
+<td align="center">持续性，顺序性</td>
+<td align="center">一维性  朝着一个方向不可逆</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">空间</td>
+<td align="center">广延性、伸张性</td>
+<td align="center">三维性  长宽高确定空间</td>
+</tr>
+</tbody></table>
+<h4 id="世界是实践的"><a href="#世界是实践的" class="headerlink" title="世界是实践的"></a>世界是实践的</h4><h5 id="实践的概念、形式和特点"><a href="#实践的概念、形式和特点" class="headerlink" title="实践的概念、形式和特点"></a>实践的概念、形式和特点</h5><blockquote>
+<p>动物没有意识，只是为了适应环境，被动的，习惯性的生物性的活动<br>实践不能是精神上的活动 </p>
+</blockquote>
+<h6 id="概念：实践是主体（人）能动地改造和探索客体（世界）的客观物质活动"><a href="#概念：实践是主体（人）能动地改造和探索客体（世界）的客观物质活动" class="headerlink" title="概念：实践是主体（人）能动地改造和探索客体（世界）的客观物质活动"></a>概念：实践是主体（人）能动地改造和探索客体（世界）的客观物质活动</h6><h6 id="特点：能动（自觉、主动）、客观（实实在在存在的）、社会历史性"><a href="#特点：能动（自觉、主动）、客观（实实在在存在的）、社会历史性" class="headerlink" title="特点：能动（自觉、主动）、客观（实实在在存在的）、社会历史性"></a>特点：能动（自觉、主动）、客观（实实在在存在的）、社会历史性</h6><blockquote>
+<p>实践的基本形式</p>
+</blockquote>
+<ol>
+<li>物质生产实践（最基本）</li>
+<li>处理社会关系实践</li>
+<li>科学实验（最高级）</li>
+</ol>
+<blockquote>
+<p>社会生活在本质上是实践的</p>
+</blockquote>
+<ul>
+<li>马克思主义认为，实践是人类社会产生、存在和发展的基础</li>
+</ul>
+<blockquote>
+<p>实践也创造了社会历史</p>
+</blockquote>
+<h2 id="物质世界的普遍联系和永恒发展"><a href="#物质世界的普遍联系和永恒发展" class="headerlink" title="物质世界的普遍联系和永恒发展"></a>物质世界的普遍联系和永恒发展</h2><blockquote>
+<p>唯物辩证法</p>
+<blockquote>
+<p>两大特征：发展、联系<br>三大规律：对立统一规律、质量互变规律、否定之否定规律<br>五大范畴：原因 vs 结果，必然性 VS 偶然性 ， 可能性 VS 现实性 ， 内容 VS 形式 ， 本质 VS 现象</p>
+</blockquote>
+</blockquote>
+<h4 id="两大特点（两大特征）"><a href="#两大特点（两大特征）" class="headerlink" title="两大特点（两大特征）"></a>两大特点（两大特征）</h4><ol>
+<li>联系<blockquote>
+<p>联系的含义：事物之间以及事物内部诸要素之间的相互影响、相互作用和相互制约<br>联系的特征：</p>
+<blockquote>
+<p>客观性：事物本身固有，不以人的意志为转移<br>普遍性：任何事物都不孤立存在，都与其他事物处于相互联系之中，整个世界是一个相互联系的整体<br>多样性：多种多样的联系</p>
+</blockquote>
+</blockquote>
+</li>
+<li>发展<blockquote>
+<p>发展的含义：新事物不断取代旧事物</p>
+<blockquote>
+<p>新事物：符合事物发展规律的事物<br>新事物必然战胜旧事物的原因</p>
+<ol>
+<li>趋势：新事物符合事物发展必然趋势（根本原因、标志）</li>
+<li>优越：新事物优越于旧事物</li>
+<li>人民：新事物符合广大人民群众的利益要求，能得到广大人民群众的拥护和支持</li>
+</ol>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<ul>
+<li>辩证法和形而上学是两种对立的发展观</li>
+</ul>
+<h4 id="三大规律"><a href="#三大规律" class="headerlink" title="三大规律"></a>三大规律</h4><ol>
+<li>对立统一规律(矛盾规律)<blockquote>
+<p>含义：即矛盾规律，任何事物都包含着矛盾，矛盾双发既统一又斗争，由此推动事物运动变化发展<br>矛盾的基本属性：同一性和斗争性</p>
+<blockquote>
+<p>统一 —–&gt; 同一性 相互依存、转化<br>内外因：<br>内部矛盾：内因—&gt; 根据<br>外部矛盾：外因—&gt; 条件<br>内外因的辩证关系：</p>
+<blockquote>
+<ol>
+<li>内因是事物发展变化的根据</li>
+<li>外因是事物发展变化的条件</li>
+<li>外因通过内因而起作用</li>
+</ol>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>矛盾的特殊性和普遍性</p>
+<blockquote>
+<p>任何事物 —–&gt;  普遍性<br>每个事物 —–&gt;  特殊性 —–&gt; 具体问题具体分析</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>矛盾的普遍性和特殊性的关系</p>
+<blockquote>
+<ol>
+<li>相互联结</li>
+<li>相互区别</li>
+<li>相互转化</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>矛盾的不平衡性</p>
+</blockquote>
+<pre><code>                       主要矛盾 ----处于支配地位，起做决定作用
+            不同矛盾    次要矛盾 ----处于服从地位
+不平衡性
+                        主要矛盾 ---- 居于支配地位，起着主导作用的方面（主流）
+            同一矛盾    次要矛盾 ---- 处于被支配地位的方面（支流）</code></pre><blockquote>
+<blockquote>
+<p>方法论：两点论和重点论的统一</p>
+</blockquote>
+</blockquote>
+<ol>
+<li>两点论 两者不可偏颇，既要研究主要矛盾，又要研究次要矛盾 既要研究矛盾的主要方面，又要研究矛盾的次要方面</li>
+<li>重点论 在研究复杂事物时，要着重的把握它的矛盾，在研究任何一种具体的矛盾时，要着重把握它的主要方面</li>
+</ol>
+<blockquote>
+<p>对立统一规律(矛盾规律)地位及其原因</p>
+<blockquote>
+<p>地位：对立统一规律是唯物辩证法的实质与核心，是根本规律<br>原因：</p>
+<blockquote>
+<ol>
+<li>承不承认对立统一规律以及矛盾是事物发展的动力是唯物辩证法与形而上学斗争的焦点和根本分歧</li>
+<li>唯物辩证法其他规律和范畴的中心线索</li>
+<li>揭示普遍联系的根本内容和事物发展变化的内在动力</li>
+<li>矛盾分析法是最根本的认识方法</li>
+</ol>
+</blockquote>
+</blockquote>
+</blockquote>
+<ol start="2">
+<li>质量互变规律<blockquote>
+<p>量变、质变和度</p>
+<blockquote>
+<p>量变：事物（发展规律/程度/速度等）的增减没有发生根本变化<br>质变：事物发生根本性的变化，事物由一种质态向另一种质态的飞跃<br>度：界限</p>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<blockquote>
+<p>  量变是质变的必要准备<br>  质变是量变的必然结果</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>  质量互变规律揭示了事物发展的状态和形式</p>
+</blockquote>
+</blockquote>
+<ol start="3">
+<li>否定之否定规律（辩证否定观）<blockquote>
+<p>形式：螺旋式上升和波浪式前进，揭示了事物发展是前进性和曲折性的统一，揭示了事物发展的趋势和道路</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="五大范畴"><a href="#五大范畴" class="headerlink" title="五大范畴"></a>五大范畴</h4><ol>
+<li><p>五对范畴之 原因和结果</p>
+<blockquote>
+<p>含义：</p>
+<blockquote>
+<ol>
+<li>原因 引起某种现象的现象</li>
+<li>结果 被某种现象所引起的现象<br>关系：<br>对立统一<blockquote>
+<ol>
+<li>原因和结果是对立的</li>
+<li>相互依存和在一定情况下相互转换</li>
+<li>原因和结果是相互作用</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</blockquote>
+</li>
+<li><p>五对范畴之 必然性和偶然性</p>
+<blockquote>
+<p>含义：</p>
+<blockquote>
+<ol>
+<li>必然性.事物联系和发展过程中确定不移的、不可避免的趋势</li>
+<li>偶然性.不确定的趋势</li>
+</ol>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>关系</p>
+<blockquote>
+<p>对立统一，相互作用<br>把世界上的一切现象都看成是必然的，否认偶然性的存在的是–&gt;机械决定论<br>3. 五对范畴之 现实性和可能性<br>含义</p>
+<ol>
+<li>现实性.客观事物和现象的种种联系（已发生）</li>
+<li>可能性.包含在现实事物之中的，预示着事物发展前途的种种趋势（未发生）</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>关系：</p>
+<blockquote>
+<p>对立统一<br>4. 五对范畴之 内容和形式<br>含义</p>
+<ol>
+<li>内容.构成事物一切要素的总和</li>
+<li>把内容各要素统一在一起的机构或表现形式</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>关系：</p>
+<blockquote>
+<ol>
+<li>对立.内容和形式含义不同</li>
+<li>统一.相互作用</li>
+</ol>
+</blockquote>
+</blockquote>
+<ol start="5">
+<li>五对范畴之 现象和本质<blockquote>
+<p>含义</p>
+<blockquote>
+<ol>
+<li>本质.事物的根本性质以及组成事物基本要素的内在联系</li>
+<li>现象.事物的表面特征以及这些特征的外部联系<br>关系：</li>
+</ol>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<blockquote>
+<ol>
+<li>对立.现象是外部，本质是内部，现象是多变，本质是稳定</li>
+<li>统一.本质都要通过一定的现象表现出来</li>
+</ol>
+</blockquote>
+</blockquote>
+<h2 id="客观规律性与主观能动性"><a href="#客观规律性与主观能动性" class="headerlink" title="客观规律性与主观能动性"></a>客观规律性与主观能动性</h2><h4 id="规律"><a href="#规律" class="headerlink" title="规律"></a>规律</h4><blockquote>
+<p>含义：物质运动发展过程中本质的、必然的、稳定的联系<br>特点：</p>
+<blockquote>
+<p>客观性：人们不能创造或者消灭规律，不以人的意志为专转移，只能认识规律<br>普遍性：规律在很大范围和领域中起作用</p>
+</blockquote>
+</blockquote>
+<h4 id="意识"><a href="#意识" class="headerlink" title="意识"></a>意识</h4><blockquote>
+<p>起源：</p>
+<blockquote>
+<ol>
+<li>自然界长期发展的产物</li>
+<li>社会性劳动的产物（决定性因素）</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>本质</p>
+<blockquote>
+<ol>
+<li>人脑的机能</li>
+<li>社会性产物</li>
+<li>主观性和客观性的统一（人脑对客观世界的反映）</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>意识的能动作用的表现</p>
+<blockquote>
+<ol>
+<li>意识具有目的性和计划性</li>
+<li>意识具有主动性和创造性</li>
+<li>意识能通过指导实践改造客观物质世界（最突出的表现）】</li>
+<li>意识对于人的生理活动有影响</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>客观规律性与主观能动性</p>
+<blockquote>
+<p>发挥主观能动性和尊重客观规律的关系<br>    尊重客观规律是正确发挥主观能动性的前提，认识和利用客观规律又必须充分发挥人的主观能动性</p>
+</blockquote>
+</blockquote>
+<h2 id="解放思想-实事求是"><a href="#解放思想-实事求是" class="headerlink" title="解放思想 实事求是"></a>解放思想 实事求是</h2><blockquote>
+<p>实事求是是马克思主义哲学的精髓</p>
+<blockquote>
+<p>实事求是就是一切从实际出发，实事求是是党的思想路线的核心</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>坚持解放思想和实事求是的辩证统一</p>
+<blockquote>
+<p>实事求是是思想解放的目的，解放思想就是为了更好的实事求是<br>解放思想是坚持实事求是的前提，只有解放思想，才能切实做到实事求是</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>马克思主义基本原理概论</category>
+      </categories>
+      <tags>
+        <tag>马克思主义基本原理概论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>认识的本质及其规律</title>
+    <url>/2021/09/07/adultExam/marxism/chapter1/chapter2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="认识的本质"><a href="#认识的本质" class="headerlink" title="认识的本质"></a>认识的本质</h2><h4 id="实践是认识的基础"><a href="#实践是认识的基础" class="headerlink" title="实践是认识的基础"></a>实践是认识的基础</h4><ol>
+<li>实践是认识发展的动力</li>
+<li>实践是认识的来源</li>
+<li>实践是认识是否正确的唯一标准</li>
+<li>实践是认识的最终目的</li>
+</ol>
+<h4 id="认识的本质-1"><a href="#认识的本质-1" class="headerlink" title="认识的本质"></a>认识的本质</h4><h5 id="主客体含义及其关系"><a href="#主客体含义及其关系" class="headerlink" title="主客体含义及其关系"></a>主客体含义及其关系</h5><ol>
+<li>实践关系</li>
+<li>相互作用关系</li>
+<li>认识关系</li>
+</ol>
+<ul>
+<li>认识的本质：主体对客体能动的反映</li>
+</ul>
+<h2 id="马克思主义认识论"><a href="#马克思主义认识论" class="headerlink" title="马克思主义认识论"></a>马克思主义认识论</h2><h4 id="唯物论的反映论与唯心论的认识论的对立"><a href="#唯物论的反映论与唯心论的认识论的对立" class="headerlink" title="唯物论的反映论与唯心论的认识论的对立"></a>唯物论的反映论与唯心论的认识论的对立</h4><ul>
+<li>唯物论的反映论存在决定思维（√）</li>
+<li>唯心论的认识论思维决定存在（先验论）<h4 id="可知论和不可知论"><a href="#可知论和不可知论" class="headerlink" title="可知论和不可知论"></a>可知论和不可知论</h4></li>
+<li>马克思主义认识论–可知论</li>
+<li>唯心论—不可知论<h4 id="能动的反映论与机械的反映论"><a href="#能动的反映论与机械的反映论" class="headerlink" title="能动的反映论与机械的反映论"></a>能动的反映论与机械的反映论</h4></li>
+<li>认识（反映）对象+实践（创造）对象</li>
+<li>旧唯物论的机械的反映论  消极的认识对象</li>
+</ul>
+<h2 id="认识的辩证运动"><a href="#认识的辩证运动" class="headerlink" title="认识的辩证运动"></a>认识的辩证运动</h2><h4 id="第一次飞跃：感性认识到理性认识"><a href="#第一次飞跃：感性认识到理性认识" class="headerlink" title="第一次飞跃：感性认识到理性认识"></a>第一次飞跃：感性认识到理性认识</h4><ol>
+<li>感性认识：<blockquote>
+<p>含义：认识的初级阶段，具体的，形象的，片面的反映<br>形式：感觉、直觉、表象</p>
+</blockquote>
+</li>
+<li>理性认识：<blockquote>
+<p>含义：认识的高级阶段，是对事物抽象的，本质的，全面的反映<br>形式：概念、判断、推理</p>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>关系：(感性—-理性)</p>
+<blockquote>
+<ol>
+<li>理性认识依赖于感性认识</li>
+<li>感性认识有待于上升到理性认识</li>
+<li>感性认识和理性认识相互渗透<br>从感性认识到理性认识必须具备的条件：</li>
+<li>材料必须丰富</li>
+<li>必须有正确的思维方法</li>
+</ol>
+</blockquote>
+</blockquote>
+<h4 id="第二次飞跃：理性认识到实践"><a href="#第二次飞跃：理性认识到实践" class="headerlink" title="第二次飞跃：理性认识到实践"></a>第二次飞跃：理性认识到实践</h4><ul>
+<li>认识的过程：认识的过程是多次反复和有限与无限的辩证统一</li>
+</ul>
+<h2 id="真理与价值"><a href="#真理与价值" class="headerlink" title="真理与价值"></a>真理与价值</h2><h4 id="真理"><a href="#真理" class="headerlink" title="真理"></a>真理</h4><blockquote>
+<p>含义：正确的反映客观事物<br>真理的属性：</p>
+<blockquote>
+<p>客观性：任何真理都包含不依赖于人的意识的客观内容<br>绝对性（绝对真理）：无限发展的物质世界是绝对的<br>相对性（相对真理）：认识有待扩展、有待深化<br>实践是检验真理的唯一标准<br>实践的特点：</p>
+<blockquote>
+<p>唯一性：实践是检验真理的唯一标准<br>确定性：实践可以检验一切认识<br>不确定性：实践是一定历史条件下有局限性</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h4 id="价值"><a href="#价值" class="headerlink" title="价值"></a>价值</h4><blockquote>
+<p>含义：某物具有对人有用或使人愉快的属性</p>
+</blockquote>
+<h4 id="真理与价值的辩证关系"><a href="#真理与价值的辩证关系" class="headerlink" title="真理与价值的辩证关系"></a>真理与价值的辩证关系</h4><blockquote>
+<p>对立：真理和价值就是两个概念，不一样<br>统一：真理可以指导实践产生价值，正确的价值观在真理指导下形成</p>
+</blockquote>
+<blockquote>
+<p>真理的价值表现在真理的功能上</p>
+<blockquote>
+<ol>
+<li>真理具有指导实践的功能</li>
+<li>真理具有再认识的功能</li>
+<li>真理具有教育和激励的功能</li>
+</ol>
+</blockquote>
+</blockquote>
+<h2 id="认识世界与改造世界的统一"><a href="#认识世界与改造世界的统一" class="headerlink" title="认识世界与改造世界的统一"></a>认识世界与改造世界的统一</h2><h4 id="认识的目的在于运用（实践-实践是认识的最终目的）"><a href="#认识的目的在于运用（实践-实践是认识的最终目的）" class="headerlink" title="认识的目的在于运用（实践   实践是认识的最终目的）"></a>认识的目的在于运用（实践   实践是认识的最终目的）</h4><blockquote>
+<p>党的思想路线：从实际出发，实事求是<br>实事求是是党的思想路线的核心，也是马克思主义哲学的精髓<br>党的思想路线坚持实践是检验真理的唯一标准<br>党的思想路线坚持理论联系实际的原则<br>党的思想路线坚持一切从实际出发的原则</p>
+</blockquote>
+<blockquote>
+<p>党的群众路线<br>党的群众路线与马克思主义哲学认识论的关系</p>
+<blockquote>
+<p>一切为了群众，一切依靠群众，从群众中来，到群众中去</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>马克思主义基本原理概论</category>
+      </categories>
+      <tags>
+        <tag>马克思主义基本原理概论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资本主义形成及其本质</title>
+    <url>/2021/09/13/adultExam/marxism/chapter1/chapter4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="资本主义形成"><a href="#资本主义形成" class="headerlink" title="资本主义形成"></a>资本主义形成</h2><h4 id="形成基础（商品经济）"><a href="#形成基础（商品经济）" class="headerlink" title="形成基础（商品经济）"></a>形成基础（商品经济）</h4><ol>
+<li>商品经济的基本概念<blockquote>
+<p>商品的含义：为市场交换而产生的有用的产品<br>商品经济：商品生产 + 商品交换</p>
+<blockquote>
+<p>商品经济的产生</p>
+<blockquote>
+<ol>
+<li>社会分工的产生和存在</li>
+<li>生产资料和劳动产品属于不同的所有者（决定性条件）</li>
+</ol>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>商品的属性（使用价值和价值）<br>|  属性（二因素）   | 含义  | 属性 |<br>|  :—-:  | :—-:  | :—-: |<br>||||<br>| 使用价值  | 有用性（具体东西） | 自然属性 |<br>||||<br>| 价值  | 凝结在商品中无差别的一般人类劳动（看不见的辛苦） | 社会属性|</p>
+</blockquote>
+<ol>
+<li>商品经济基本矛盾</li>
+<li>商品经济基本规律<h4 id="形成过程"><a href="#形成过程" class="headerlink" title="形成过程"></a>形成过程</h4><h2 id="资本主义经济制度的本质特征"><a href="#资本主义经济制度的本质特征" class="headerlink" title="资本主义经济制度的本质特征"></a>资本主义经济制度的本质特征</h2><h4 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h4><h4 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h4><h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><h2 id="资本的流通过程和剩余价值的分配"><a href="#资本的流通过程和剩余价值的分配" class="headerlink" title="资本的流通过程和剩余价值的分配"></a>资本的流通过程和剩余价值的分配</h2><h4 id="流通过程"><a href="#流通过程" class="headerlink" title="流通过程"></a>流通过程</h4><h4 id="剩余价值分配"><a href="#剩余价值分配" class="headerlink" title="剩余价值分配"></a>剩余价值分配</h4><h2 id="资本主义政治制度和意识形态"><a href="#资本主义政治制度和意识形态" class="headerlink" title="资本主义政治制度和意识形态"></a>资本主义政治制度和意识形态</h2><h4 id="政治制度"><a href="#政治制度" class="headerlink" title="政治制度"></a>政治制度</h4><h4 id="意识形态"><a href="#意识形态" class="headerlink" title="意识形态"></a>意识形态</h4></li>
+</ol>
+]]></content>
+      <categories>
+        <category>马克思主义基本原理概论</category>
+      </categories>
+      <tags>
+        <tag>马克思主义基本原理概论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>人类社会及其发展规律</title>
+    <url>/2021/09/09/adultExam/marxism/chapter1/chapter3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="社会基本矛盾及其运动规律"><a href="#社会基本矛盾及其运动规律" class="headerlink" title="社会基本矛盾及其运动规律"></a>社会基本矛盾及其运动规律</h2><h5 id="社会的本质"><a href="#社会的本质" class="headerlink" title="社会的本质"></a>社会的本质</h5><ol>
+<li>社会存在<blockquote>
+<p>含义：社会物质生活条件的总和（自然条件、同伴、物质生产）</p>
+<blockquote>
+<ol>
+<li>地理环境：加速或者延缓社会的发展</li>
+<li>人口因素：制约和影响社会的发展</li>
+<li>物质生产：<blockquote>
+<p>含义：生产力和生产关系<br>作用：生产方式在社会发展中起决定作</p>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+</blockquote>
+</li>
+<li>社会意识<blockquote>
+<p>社会的精神生活过程<br>程度高低：</p>
+<blockquote>
+<p>社会心理<br>思想体系<br>是否具有阶级性<br>意识形态（有阶级性）<br>非意识形态（没有阶级性 ）<br>主体不同<br>个体不同<br>群体意识</p>
+</blockquote>
+</blockquote>
+</li>
+<li>辩证关系<blockquote>
+<p>社会存在决定社会意识<br>社会意识对社会存在具有反作用</p>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>社会意识具有相对独立性</p>
+<blockquote>
+<ol>
+<li>社会意识与社会存在变化发展的非完全同步性</li>
+<li>社会意识与社会经济发展水平具有不平衡性</li>
+<li>社会意识的发展具有历史继承性</li>
+<li>社会意识各种形式之间相互作用和影响</li>
+<li>社会意识对社会存在的反作用或称能动性（最重要的表现）</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>社会存在于社会意识</p>
+<blockquote>
+<p>社会存在决定社会意识 –&gt; 历史唯物主义<br>社会意识决定社会存在 –&gt; 历史唯心主义</p>
+</blockquote>
+</blockquote>
+<h5 id="社会的矛盾"><a href="#社会的矛盾" class="headerlink" title="社会的矛盾"></a>社会的矛盾</h5><ol>
+<li>生产力和生产关系<blockquote>
+<p>生产力发展的标志：生产工具</p>
+</blockquote>
+</li>
+</ol>
+<blockquote>
+<p>现代生产力系统</p>
+<blockquote>
+<p>实体性因素<br>运筹性因素<br>渗透性因素<br>准备性因素<br>生产关系:物质生产中人和人之间的经济关系</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<ol>
+<li>生产资料所有制形式（决定性）</li>
+<li>人们在生产中的低位</li>
+<li>产品分配方式</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>生产力与生产关系的矛盾关系</p>
+<blockquote>
+<p>生产力决定生产关系<br>生产关系反作用于生产力</p>
+</blockquote>
+</blockquote>
+<ol>
+<li>经济基础和上层建筑</li>
+</ol>
+<blockquote>
+<p>经济基础：占统治低位的生产关系<br>上层建筑：社会意识形态以及与相适应的政治法律法规制度和设施等的总和</p>
+<blockquote>
+<p>政治上层建筑(制度、军队、警察、监狱)<br>思想上层建筑（法律思想、艺术、道德）</p>
+</blockquote>
+</blockquote>
+<h5 id="社会的划分"><a href="#社会的划分" class="headerlink" title="社会的划分"></a>社会的划分</h5><ol>
+<li>根据生产关系分五类社会形态：原始社会、奴役社会、封建社会、资本主义社会、共产主义社会</li>
+<li>根据人的发展情况分三类社会形态：人的依赖性社会、物的依赖社会、个人发展的社会</li>
+<li>根据技术水平分四类社会形态：渔猎社会、农业社会、工业社会、信息社会</li>
+</ol>
+<blockquote>
+<p>社会形态发展的特点：</p>
+<blockquote>
+<p>统一性:社会形态发展过程具有的共同性、普遍性（客观规律）<br>多样性：不同国家和民族的历史发展具有的特点典型意义不同，可能超越某一个或某几个社会形态（主观能动性）</p>
+</blockquote>
+</blockquote>
+<h2 id="社会发展的动力"><a href="#社会发展的动力" class="headerlink" title="社会发展的动力"></a>社会发展的动力</h2><h4 id="发展的动力"><a href="#发展的动力" class="headerlink" title="发展的动力"></a>发展的动力</h4><ol>
+<li>基本动力：社会基本矛盾</li>
+<li>直接动力：<blockquote>
+<p>阶级斗争（阶级首先是一个经济范畴，划分阶级的唯一标准是经济标准）<br>阶级斗争的根源:物质利益的对立</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="发展的形式"><a href="#发展的形式" class="headerlink" title="发展的形式"></a>发展的形式</h4><ol>
+<li>革命</li>
+<li>改革</li>
+</ol>
+<h2 id="人民群众在历史发展中的作用"><a href="#人民群众在历史发展中的作用" class="headerlink" title="人民群众在历史发展中的作用"></a>人民群众在历史发展中的作用</h2><h4 id="人的本质"><a href="#人的本质" class="headerlink" title="人的本质"></a>人的本质</h4><ol>
+<li>劳动：制造和使用工具</li>
+<li>社会关系的总和（社会属性）</li>
+<li>人的需要</li>
+</ol>
+<h4 id="人的作用（人民群众是历史的创造者）"><a href="#人的作用（人民群众是历史的创造者）" class="headerlink" title="人的作用（人民群众是历史的创造者）"></a>人的作用（人民群众是历史的创造者）</h4><ol>
+<li>人民群众是物质财富的创造者</li>
+<li>人民群众是精神财富的创造者</li>
+<li>人民群众是社会变革的决定力量</li>
+</ol>
+<blockquote>
+<p>群众史观（历史唯物主义）<br>英雄史观（历史唯心主义）</p>
+</blockquote>
+<blockquote>
+<p>群众观点（马克思主义政党的根本观点）</p>
+<blockquote>
+<ol>
+<li>人民群众自己解放自己的观点</li>
+<li>全心全意为人民服务的观点</li>
+<li>向人民群众负责的观点</li>
+<li>向人民群众学习的观点</li>
+</ol>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>群众路线（党的根本工作路线）</p>
+<blockquote>
+<p>“一切为了群众”：群众路线的最终归宿，是党的根本宗旨<br>“一切依靠群众”：群众路线的根本要求<br>“从群众中来，到群众中去”：无产阶级政党的领导方法</p>
+</blockquote>
+</blockquote>
+<h4 id="杰出人物的作用"><a href="#杰出人物的作用" class="headerlink" title="杰出人物的作用"></a>杰出人物的作用</h4><ol>
+<li>反映那个时代的趋势，提出发展社会发展的先进思想和主张</li>
+<li>阶级斗争中起到了核心的中流砥柱的作用</li>
+<li>一些主张和改革措施，对社会发展起到促进作用和推动作用</li>
+<li>对于人类科学文化教育事业的发展起着重要作用</li>
+</ol>
+<h4 id="无产阶级领袖的作用"><a href="#无产阶级领袖的作用" class="headerlink" title="无产阶级领袖的作用"></a>无产阶级领袖的作用</h4><ol>
+<li>他们是最先进、最革命的阶级代表，肩负着建立社会主义和共产主义制度的历史使命</li>
+<li>他们为解放斗争提供理论指导，指明方向和道路</li>
+<li>他们真正代表人民的利益，病为之奋斗终生</li>
+<li>他们善于领导和组织无产阶级和人民群众，不断取得新的胜利和成功</li>
+</ol>
+]]></content>
+      <categories>
+        <category>马克思主义基本原理概论</category>
+      </categories>
+      <tags>
+        <tag>马克思主义基本原理概论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>什么是计算机网络</title>
+    <url>/2021/10/22/adultExam/compucterNet/chapter1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="什么是计算机网络"><a href="#什么是计算机网络" class="headerlink" title="什么是计算机网络"></a>什么是计算机网络</h2><h4 id="定义：计算机网络就是互联的、自治的计算机集合"><a href="#定义：计算机网络就是互联的、自治的计算机集合" class="headerlink" title="定义：计算机网络就是互联的、自治的计算机集合"></a>定义：计算机网络就是互联的、自治的计算机集合</h4><blockquote>
+<p>自治：无主从关系<br>互联：互联互通（通过通信链路）<br>远距离、数量大如何保证互联？</p>
+<blockquote>
+<p>通过交换网络互联主机（交换节点–&gt;路由器或者交换机）</p>
+</blockquote>
+</blockquote>
+<h4 id="什么是internet？"><a href="#什么是internet？" class="headerlink" title="什么是internet？"></a>什么是internet？</h4><blockquote>
+<p>全球最大的互联网络</p>
+</blockquote>
+<h4 id="协议的三要素（语法、语义、时序）"><a href="#协议的三要素（语法、语义、时序）" class="headerlink" title="协议的三要素（语法、语义、时序）"></a>协议的三要素（语法、语义、时序）</h4><ol>
+<li>语法：<blockquote>
+<p>数据与控制信息的结构或格式<br>信号电平</p>
+</blockquote>
+</li>
+<li>语义：<blockquote>
+<p>需要发出何种控制信息<br>完成何种动作以及做出何种响应<br>差错控制</p>
+</blockquote>
+</li>
+<li>时序：<blockquote>
+<p>实践顺序<br>速度匹配</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="计算网络的结构"><a href="#计算网络的结构" class="headerlink" title="计算网络的结构"></a>计算网络的结构</h2>]]></content>
+      <categories>
+        <category>计算机网络络</category>
+      </categories>
+      <tags>
+        <tag>计算机网络络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资本主义发展的历史进程</title>
+    <url>/2021/09/16/adultExam/marxism/chapter1/chapter5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="从自由竞争资本主义到垄断资本主义"><a href="#从自由竞争资本主义到垄断资本主义" class="headerlink" title="从自由竞争资本主义到垄断资本主义"></a>从自由竞争资本主义到垄断资本主义</h2><h4 id="经济"><a href="#经济" class="headerlink" title="经济"></a>经济</h4><ol>
+<li><p>自由到垄断</p>
+<blockquote>
+<p>自由生产 —-&gt; 生产集中 —–&gt;垄断<br>垄断产生的物质条件和基础：社会化生产力的发展<br>资本主义的发展阶段：自由竞争到垄断<br>自由竞争资本主义  —–&gt;  垄断资本主义(垄断的产生的时间：十九实际末二十世纪初)</p>
+</blockquote>
+</li>
+<li><p>垄断和竞争</p>
+<blockquote>
+<p>垄断后竞争任然存在的原因</p>
+<blockquote>
+<p>竞争是商品经济存在发展的基本条件<br>还存在未形成垄断的部门及大量的非垄断企业<br>已形成垄断的企业之间依然是竞争关系</p>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="center">时期</th>
+<th align="center">垄断形式</th>
+<th align="center">解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">20世纪上半期</td>
+<td align="center">卡特尔</td>
+<td align="center">自然生产或经营同类产品的垄断企业</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">20世纪上半期</td>
+<td align="center">辛迪加</td>
+<td align="center">在法律和生产上独立的大垄断企业在流通环节上垄断</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">20世纪上半期</td>
+<td align="center">托拉斯</td>
+<td align="center">全过程的独立的大型垄断企业</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">20世纪上半期</td>
+<td align="center">康采恩</td>
+<td align="center">超大型垄断集团</td>
+</tr>
+</tbody></table>
+<ol start="3">
+<li><p>金融资本与金融寡头</p>
+<blockquote>
+<p>金融资本：垄断的银行资本和工业资本<br>金融寡头：掌握了金融资本，操纵国民经济命脉<br>金融寡头的统治方式：</p>
+<blockquote>
+<p>经济上：参与制<br>政治上：个人联合</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>垄断利润</p>
+<blockquote>
+<p>垄断利润：垄断资本获得的大大超过平均利润的高额利润<br>垄断利润主要是通过垄断组织指定的垄断价格来实现的，分为垄断高价和垄断低价</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h4><ol>
+<li><p>国家垄断资本主义</p>
+<blockquote>
+<p>资本主义国家 国家垄断产生时间：二战时期</p>
+</blockquote>
+</li>
+<li><p>二战后国家垄断资本主义大发展的原因：（重点考题）</p>
+<blockquote>
+<p>依靠私人垄断资本的力量，无法满足大规模经济建设<br>公共设施的建设上，私人垄断资本无能为力或不愿进行建设<br>科学研究项目，私人垄断资本不愿涉足<br>日益严重的生产过剩问题<br>社会化大生产的发展要求国家进行宏观调控<br>国家的再分配功能也越来越重要</p>
+</blockquote>
+</li>
+<li><p>国家垄断资本主义对经济的宏观调控</p>
+<blockquote>
+<p>总任务：促进市场总供给和总需求的平衡<br>调控手段：经济手段和法律手段<br>主要政策：</p>
+<blockquote>
+<p>财政政策<br>货币政策<br>国民经济计划</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>资本输出：垄断资本主义经济请略的重要手段</p>
+<blockquote>
+<p>资本输出：借贷资本输出、生产资本输出<br>垄断资本主义国家打着援助旗号对其他国家进行剥削和控制，是一种殖民主义</p>
+</blockquote>
+<h2 id="经济全球化和当代资本主义新变化"><a href="#经济全球化和当代资本主义新变化" class="headerlink" title="经济全球化和当代资本主义新变化"></a>经济全球化和当代资本主义新变化</h2><h4 id="经济全球化"><a href="#经济全球化" class="headerlink" title="经济全球化"></a>经济全球化</h4></li>
+<li><p>本质：资源配置的国际化</p>
+</li>
+<li><p>内容：生产全球化、贸易全球化和资本全球化</p>
+</li>
+<li><p>经济全球化的原因：</p>
+<blockquote>
+<ol>
+<li>新科学技术加强了国际经济联系</li>
+<li>国际贸易的自由程度大大提高</li>
+<li>国际资本流动的大幅增加</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+<h4 id="当代资本主义新变化"><a href="#当代资本主义新变化" class="headerlink" title="当代资本主义新变化"></a>当代资本主义新变化</h4><table>
+<thead>
+<tr>
+<th align="center">角度</th>
+<th align="center">表现</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生产力</td>
+<td align="center">1.劳动生产率提高  2. “三机”变”四机”，信息技术加入  3. 生产要素变化，脑力劳动者比例攀升</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生产关系</td>
+<td align="center">1.资本社会化（所有制）  2. 劳资关系  3. 分配关系</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">上层建筑</td>
+<td align="center">1.政治制度与法治结合）  2. 国家管理经济和社会的职能增加  3. 民主形式扩大</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>当代资本主义新变化的原因：</p>
+<blockquote>
+<p>生产力：自身发展规律，科学技术自身发展规律的作用<br>生产关系：资本主义国家不断调整以适应生产力发展的要求<br>上层建筑：当代资本主义国家上层建筑的新变化归根结底是经济基础发展变化所要求的</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>当代资本主义变化的实质</p>
+<blockquote>
+<ol>
+<li>经济基础任然是资本主义的私人占有制</li>
+<li>资本主义生产社会化与生产资料私人占有的基本矛盾依然存在</li>
+<li>没有改变资本主义生产关系的根本性质</li>
+</ol>
+</blockquote>
+</blockquote>
+<h2 id="资本主义历史地位和发展趋势"><a href="#资本主义历史地位和发展趋势" class="headerlink" title="资本主义历史地位和发展趋势"></a>资本主义历史地位和发展趋势</h2><h4 id="历史地位"><a href="#历史地位" class="headerlink" title="历史地位"></a>历史地位</h4><blockquote>
+<p>马克思：发展社会劳动生产力，是资本主义的历史任务和存在理由。资本正是以此不自觉地为一个更高级的生产形式创造物质条件<br>社会主义必然会取代资本主义，过渡的过程是复杂的、曲折的和长期的历史过程</p>
+</blockquote>
+<h4 id="必然性和长期性"><a href="#必然性和长期性" class="headerlink" title="必然性和长期性"></a>必然性和长期性</h4>]]></content>
+      <categories>
+        <category>马克思主义基本原理概论</category>
+      </categories>
+      <tags>
+        <tag>马克思主义基本原理概论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>共产主义社会是人类最崇高的社会理想</title>
+    <url>/2021/09/19/adultExam/marxism/chapter1/chapter7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="马克思主义对共产主义社会的展望（共产主义的特征）"><a href="#马克思主义对共产主义社会的展望（共产主义的特征）" class="headerlink" title="马克思主义对共产主义社会的展望（共产主义的特征）"></a>马克思主义对共产主义社会的展望（共产主义的特征）</h2><h4 id="经济"><a href="#经济" class="headerlink" title="经济"></a>经济</h4><ol>
+<li>社会生产力高度发展和物质财富极大丰富</li>
+<li>实行社会公有制和按需分配的分配原则</li>
+<li>经济计划调节管理和商品经济消失<h4 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h4></li>
+<li>阶级的消灭和国家自行消亡<h4 id="精神"><a href="#精神" class="headerlink" title="精神"></a>精神</h4></li>
+<li>精神境界极大提高<h4 id="人"><a href="#人" class="headerlink" title="人"></a>人</h4></li>
+<li>人的自由而全面发展</li>
+<li>全人类的彻底解放<h2 id="共产主义是社会历史发展的必然趋势"><a href="#共产主义是社会历史发展的必然趋势" class="headerlink" title="共产主义是社会历史发展的必然趋势"></a>共产主义是社会历史发展的必然趋势</h2><h5 id="共产主义两个阶段（社会主义社会（低级阶段），共产主义社会（高级阶段））"><a href="#共产主义两个阶段（社会主义社会（低级阶段），共产主义社会（高级阶段））" class="headerlink" title="共产主义两个阶段（社会主义社会（低级阶段），共产主义社会（高级阶段））"></a>共产主义两个阶段（社会主义社会（低级阶段），共产主义社会（高级阶段））</h5></li>
+<li>都是以公有制作为社会经济制度的基础</li>
+<li>生产目的都是满足劳动人民日益增长的物质文化生活需要，实现共同富裕</li>
+<li>都要消灭剥削制度</li>
+<li>都以马克思主义为指导思想，以集体主义为意识形态的核心</li>
+<li>公有制范围内的产品分配<h2 id="在建设中国特色社会主义的进程中为实现共产主义而奋斗"><a href="#在建设中国特色社会主义的进程中为实现共产主义而奋斗" class="headerlink" title="在建设中国特色社会主义的进程中为实现共产主义而奋斗"></a>在建设中国特色社会主义的进程中为实现共产主义而奋斗</h2><h4 id="社会主义是走向共产主义的必由之路"><a href="#社会主义是走向共产主义的必由之路" class="headerlink" title="社会主义是走向共产主义的必由之路"></a>社会主义是走向共产主义的必由之路</h4></li>
+<li>社会主义社会是走向共产主义社会的必经之路</li>
+<li>为实现共产主义创造条件<h4 id="积极投身中国特色社会主义事业"><a href="#积极投身中国特色社会主义事业" class="headerlink" title="积极投身中国特色社会主义事业"></a>积极投身中国特色社会主义事业</h4></li>
+</ol>
+]]></content>
+      <categories>
+        <category>马克思主义基本原理概论</category>
+      </categories>
+      <tags>
+        <tag>马克思主义基本原理概论</tag>
+      </tags>
+  </entry>
+</search>
